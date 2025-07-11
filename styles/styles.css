@@ -1,4 +1,3 @@
-
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -15,10 +14,10 @@
 }
 .input-section{
   background-color: rgba(255, 255, 255, 0.5);
-  margin: 92px 150px 14px 150px;
+  margin: 92px auto 14px auto;
   display: flex;
   gap: 115px;
-padding: 71px 0px;
+padding: 71px 5%;
  border-radius: 8px;
 }
 .text-box{
@@ -26,31 +25,33 @@ display: flex;
 flex-direction: column;
  gap: 20px;
 }
+.nem-style{
+font-size: 22px;
+font-weight: 500;
+}
 section input[type="text"], section input[type="email"], section textarea
  {
-  padding: 12px 16px;
-  font-size: 16px;
+  padding: 20px 270px 20px 32px;
+  font-size: 20px;
   border-radius: 8px;
   width: 100%;
 display: block;
 box-sizing: border-box;
-border: 1px solid #ddd;
-
-}
-
+border: 1px solid #ddd;}
 .nav-button-text {
-  background-color: #4a44f2;
+   background-color: #4a44f2;
   color: white;
   font-weight: 600;
   font-size: 14px;
   border: none;
-  padding: 14px;
+  padding: 14px 35px;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 .input-colomn{
- width: 50%;
+ width: 100%;
+ gap: 20;
 }
 .input-title{
   font-size: 96px;
@@ -60,6 +61,8 @@ border: 1px solid #ddd;
 }
 .nav-button-text:hover {
   background-color: #372ce0;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 .text-box label {
   font-weight: 500;
@@ -90,11 +93,7 @@ div p{
 .text-center{
     font-size: 22px;
   font-weight: 600;
-  margin-bottom: 30px;
-}
-body {
-  background-color: #f7f9ff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+  margin-bottom: 30px;}
 .Productive-Users-Section{
   background-color: #e7e9fe;
   padding: 50px 142px;
@@ -185,4 +184,115 @@ footer{
   color: #8987A1; 
  text-decoration: none;
  font-size: 18px; 
+}
+.reviewer-date {
+    font-size: 12px;
+    color: #8987A1; 
+    margin: 0; 
+}
+.reviewer-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #252432;
+    margin: 0; 
+}
+.reviewer-avatar {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.reviewer-details {
+    display: flex;
+    align-items: center; 
+    gap: 12px; 
+    margin-top: auto; 
+}
+.reviewer-details div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;  
+}
+.review-text {
+    font-size: 16px;
+    color: #555555; 
+    line-height: 1.5;
+    margin-bottom: 25px; 
+}
+.feedback-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #252432;
+    margin-top: 0; 
+    margin-bottom: 10px; 
+}
+.star-rating img {
+    width: 20px; 
+    height: 20px;
+}
+.star-rating {
+    display: flex; 
+    gap: 4px; 
+    margin-bottom: 15px; 
+}
+.feedback-card {
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 30px; 
+    max-width: 350px; 
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.feedback-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    padding: 0 50px; 
+    flex-wrap: wrap; 
+}
+section {
+    padding: 80px 0; 
+}
+
+.feedback-title {
+    text-align: center;
+    margin-bottom: 60px; 
+}
+
+.feedback-title h1 {
+    font-size: 42px; 
+    font-weight: 700; 
+    color: #252432; 
+    margin: 0; 
+}
+body {
+  background-color: #FFFFFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+  
+.button-only-section {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #e5e4ed;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.simple-button {
+    background-color: #f7d24f;
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
 }
