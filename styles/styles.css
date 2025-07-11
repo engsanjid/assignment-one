@@ -12,14 +12,13 @@
   padding: 30px 50px;
 
 }
-.input-section{
-  background-color: rgba(255, 255, 255, 0.5);
-  margin: 92px auto 14px auto;
-  display: flex;
-  gap: 115px;
-padding: 71px 5%;
- border-radius: 8px;
+.input-section {
+    display: flex;
+    gap: 100px; 
+    align-items: center; 
+    padding: 80px 0;
 }
+
 .text-box{
 display: flex;
 flex-direction: column;
@@ -29,15 +28,25 @@ flex-direction: column;
 font-size: 22px;
 font-weight: 500;
 }
-section input[type="text"], section input[type="email"], section textarea
- {
-  padding: 20px 270px 20px 32px;
-  font-size: 20px;
-  border-radius: 8px;
-  width: 100%;
-display: block;
-box-sizing: border-box;
-border: 1px solid #ddd;}
+.input-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Form-er prottekta element-er majhe gap */
+}
+
+.input-section input[type="text"],
+.input-section input[type="email"],
+.input-section textarea {
+    padding: 18px 20px; 
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #FFFFFF;
+}
+
 .nav-button-text {
    background-color: #4a44f2;
   color: white;
@@ -49,10 +58,9 @@ border: 1px solid #ddd;}
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.input-colomn{
- width: 100%;
- gap: 20;
-}
+.input-column {
+    flex: 1; }
+
 .input-title{
   font-size: 96px;
   font-weight: bold;
@@ -235,23 +243,19 @@ footer{
     gap: 4px; 
     margin-bottom: 15px; 
 }
-.feedback-card {
-    background-color: #ffffff; 
-    border-radius: 12px; 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    padding: 30px; 
-    max-width: 350px; 
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-}
 .feedback-container {
-    display: flex; 
-    justify-content: center; 
-    gap: 30px; 
-    padding: 0 50px; 
-    flex-wrap: wrap; 
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 5%;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  flex: 1 1 300px; 
+  max-width: 320px;
+  min-width: 280px;
+  box-sizing: border-box;
 }
 section {
     padding: 80px 0; 
