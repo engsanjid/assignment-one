@@ -4,7 +4,7 @@
   
   font-style: normal;
 }
-.header{
+.header1{
   background-image: url('../Assets/Hero-bg.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ font-weight: 500;
 .input-section form {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Form-er prottekta element-er majhe gap */
+    gap: 15px; 
 }
 
 .input-section input[type="text"],
