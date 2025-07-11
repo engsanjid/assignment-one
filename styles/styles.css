@@ -12,7 +12,61 @@
   background-size: cover;
   padding: 30px 50px;
 
-  
+}
+.input-section{
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 92px 150px 14px 150px;
+  display: flex;
+  gap: 115px;
+padding: 71px 0px;
+ border-radius: 8px;
+}
+.text-box{
+display: flex;
+flex-direction: column;
+ gap: 20px;
+}
+section input[type="text"], section input[type="email"], section textarea
+ {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 100%;
+display: block;
+box-sizing: border-box;
+border: 1px solid #ddd;
+
+}
+
+.nav-button-text {
+  background-color: #4a44f2;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.input-colomn{
+ width: 50%;
+}
+.input-title{
+  font-size: 96px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 1.2;
+}
+.nav-button-text:hover {
+  background-color: #372ce0;
+}
+.text-box label {
+  font-weight: 500;
+  color: #333;
+}
+main{
+  margin: 116px 155px;
 }
 div h3{
   font-size: 42px;
@@ -24,7 +78,45 @@ div p{
   font-weight: 400;
   color: #252432;
 }
-section{
+.text-center{
+  text-align: center;
+}
+.Users-container{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.text-center{
+    font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+body {
+  background-color: #f7f9ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.Productive-Users-Section{
+  background-color: #e7e9fe;
+  padding: 50px 142px;
+  border-radius: 16px;
+  max-width: 800px;
+margin: 116px auto;
+  text-align: center;
+  color: #1a1a1a;
+
+}
+.User-title{
+  font-size: 16px;
+  margin-top: 8px;
+  color: #666;
+}
+.title{
+  
+  font-size: 36px;
+  color: #4b4ded;
+  margin: 0;
+}
+.section{
   display: flex;
   justify-content: space-between;
   margin: 116px 160px 116px 140px;
@@ -60,4 +152,8 @@ background-color: #4E47FF;
 padding: 12px 35px;
 border-radius: 10px;
 border: none;
+}
+.input-button{
+  width: 100%;
+  box-sizing: border-box;
 }
